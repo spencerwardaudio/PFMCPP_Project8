@@ -1,6 +1,6 @@
 #pragma once 
 
-#include "Vehicle.h"
+#include "Highway.h"
 
 struct HighwayPatrol : Vehicle 
 {
@@ -9,3 +9,4 @@ struct HighwayPatrol : Vehicle
 
     void pullOver( Vehicle* v, bool willArrest, Highway* h );
 };
+
