@@ -1,9 +1,9 @@
 #include "SemiTruck.h"
 
-SemiTruck::SemiTruck(const std::string& s) : Vehicle(s)
-{
-
-}
+SemiTruck::SemiTruck(const std::string& s) : Vehicle(s) {}
+SemiTruck::~SemiTruck()  = default;
+SemiTruck::SemiTruck(const SemiTruck&) = default;
+SemiTruck& SemiTruck::operator=(const SemiTruck&) = default;
 
 void SemiTruck::closeWindows()
 {
