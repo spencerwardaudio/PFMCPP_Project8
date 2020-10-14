@@ -49,7 +49,6 @@ your task:
 #include "HighwayPatrol.h"
 #include "Motorcycle.h"
 #include "SemiTruck.h"
-#include "Vehicle.h"
 
 
 /*

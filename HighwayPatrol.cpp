@@ -1,4 +1,6 @@
 #include "HighwayPatrol.h"
+#include "Highway.h"
+
 #include <iostream>
 
 HighwayPatrol::HighwayPatrol() : Vehicle("HighwayPatrol")

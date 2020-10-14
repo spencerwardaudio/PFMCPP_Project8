@@ -10,7 +10,7 @@ struct Highway
     void changeSpeed(int newSpeed);
     void addVehicle(Vehicle* v);
     void removeVehicle(Vehicle* v);
-private:
+protected:
     void addVehicleInternal(Vehicle* v);
     void removeVehicleInternal(Vehicle* v);
     int speedLimit = 65;
