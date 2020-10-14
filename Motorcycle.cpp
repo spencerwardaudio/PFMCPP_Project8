@@ -26,3 +26,4 @@ void Motorcycle::setSpeed(int s)
         Vehicle::setSpeed(s);
     }
 }
+
