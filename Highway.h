@@ -3,15 +3,16 @@
 #include <vector>
 #include <algorithm>
 
-#include "HighwayPatrol.h"
 #include "Vehicle.h"
+
+struct HighwayPatrol;
 
 struct Highway
 {
     void changeSpeed(int newSpeed);
     void addVehicle(Vehicle* v);
     void removeVehicle(Vehicle* v);
-protected:
+private:
     void addVehicleInternal(Vehicle* v);
     void removeVehicleInternal(Vehicle* v);
     int speedLimit = 65;

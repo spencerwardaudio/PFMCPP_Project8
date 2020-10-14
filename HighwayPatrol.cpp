@@ -32,6 +32,8 @@ void HighwayPatrol::pullOver( Vehicle* v, bool willArrest, Highway* h )
     std::cout << name << ": vehicle is traveling " << v->speed - h->speedLimit << " miles per hour over the speed limit" << std::endl;
     if( willArrest )
     {
+        std::string vehicleClass;
+        
         if(dynamic_cast<Car*>(v))
         {
             vehicleClass = "CAR";
